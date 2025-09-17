@@ -1,0 +1,21 @@
+/* Banner superior con gradiente */
+.about-hero {
+    background: linear-gradient(135deg, #6a82fb 0%, #fc5c7d 100%);
+    min-height: 250px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Equipo - imágenes redondas */
+.team-card .card-img-top {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    box-shadow: none;
+}

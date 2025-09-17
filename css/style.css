@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0056b3;
+}
+
+nav a,
+.navbar-nav .nav-link {
+    color: #1565c0 !important; /* Azul corporativo */
+    background: none !important;
+    transition: color 0.2s;
+}
+
+nav a:hover,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #fc5c7d !important; /* Rosa corporativo */
+    background: none !important;
+}
+
+/* Sección de presentación */
+.presentation {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Banner principal */
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    padding: 0;
+    background: none;
+}
+
+.banner-img {
+    width: 90%;
+    max-width: 1200px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    display: block;
+}
+
+/* Botón de llamada a la acción */
+.btn-contact {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    background-color: #218838;
+}
+
+/* Estilos para tarjetas de Bootstrap */
+.card {
+    margin: 20px;
+    border-radius: 18px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos adicionales para el pie de página */
+.footer-coderhub {
+    background: #232323;
+    color: #fff;
+    padding: 32px 0 16px 0;
+    text-align: center;
+}
+
+.footer-coderhub .footer-contact p {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer-coderhub .footer-link {
+    color: #6a82fb;
+    margin: 0 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.footer-coderhub .footer-link:hover {
+    color: #fc5c7d;
+    text-decoration: underline;
+}
+
+.footer-coderhub .footer-social {
+    margin-top: 10px;
+}
+
+.footer-coderhub .btn-social {
+    background: none;
+    padding: 0;
+    margin: 0 6px;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+    transition: box-shadow 0.2s;
+}
+
+.footer-coderhub .btn-social:hover {
+    box-shadow: 0 0 0 3px #fc5c7d44;
+}
+
+.social-icon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Para el footer en fila */
+.footer-contact-row {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-contact-row span {
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .banner {
+        font-size: 1.5em;
+    }
+}
+
+/* Animaciones utilizando Animate.css */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.about-hero {
+    background: linear-gradient(135deg, #6a82fb 0%, #fc5c7d 100%);
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-card img {
+    border: 4px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.service-card {
+    border-radius: 18px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #fff;
+}
+
+.service-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(106,130,251,0.15), 0 1.5px 6px rgba(252,92,125,0.10);
+}
+
+.service-icon {
+    background: linear-gradient(135deg, #6a82fb 0%, #fc5c7d 100%);
+    color: #fff;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(106,130,251,0.10);
+}
+
+.logo-brand {
+    color: #1565c0 !important;
+    font-weight: bold;
+}

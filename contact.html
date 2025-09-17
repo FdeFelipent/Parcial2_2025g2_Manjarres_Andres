@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - CoderHub.run</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand logo-brand" href="index.html">CoderHub.run</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container text-center">
+                <h1 class="display-4">Contáctanos</h1>
+            </div>
+        </section>
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contactForm" enctype="multipart/form-data" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" class="form-control" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-map">
+                        <h2 class="mt-5">Nuestra Ubicación</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6707.375155665942!2d-75.60965489686838!3d1.6171994105347334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e244e2307a3b2af%3A0x2eb9e14897cad6c7!2sUniversidad%20de%20la%20Amazonia%20sede%20principal!5e0!3m2!1ses-419!2sco!4v1758063253863!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <footer class="footer-coderhub">
+        <div class="footer-contact">
+            <div class="footer-contact-row">
+                <span><i class="fas fa-envelope"></i>coderhub_oficial@gmail.com</span>
+                <span><i class="fas fa-phone"></i>+57 323 238 2558</span>
+                <span><i class="fas fa-map-marker-alt"></i>Carrera #3, Florencia, Caquetá</span>
+            </div>
+            <p>
+                <a href="#" class="footer-link">Política de Privacidad</a> |
+                <a href="#" class="footer-link">Términos y Condiciones</a>
+            </p>
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" class="btn-social">
+                    <img src="img/facebook.png" alt="Facebook" class="social-icon-img">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="btn-social">
+                    <img src="img/ig.jpg" alt="Instagram" class="social-icon-img">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
