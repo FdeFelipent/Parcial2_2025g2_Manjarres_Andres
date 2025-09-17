@@ -3,3 +3,4 @@ Entrega
 # Parcial2_2025g2_Manjarres_Andres
 # Parcial2_2025g2_Manjarres_Andres
 # Parcial2_2025g2_Manjarres_Andres
+# Parcial2_2025g2_Manjarres_Andres
